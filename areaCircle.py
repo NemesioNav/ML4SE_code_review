@@ -3,7 +3,7 @@ import math
 def circle_area(radius):
     if radius < 0:
         return "Radius cannot be negative."
-    area = math.pi * radius ** 2
+    area = (math.pi * radius) ** 2
     return area
 
 def calculate_hypotenuse(a, b):
